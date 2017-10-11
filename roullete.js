@@ -39,7 +39,7 @@ function roulleteThread(pp) {
 }
 
 var roullete = {
-	commands: ['roullete', 'sorteio'],
+	commands: ['roullete'],
 	cooldown: 5,
 	lastUsed: 0,
 	thread: null,
