@@ -1,0 +1,134 @@
+{
+    "general" : {
+        "ghost": "@%%USER%% I do not see you in the room! Try again in a few moments.",
+        "userNotFound": "@%%USER%% I did not find the requested user!",
+        "notLocated": "@%%USER%% I did not find this user!",
+        "insParams": "@%%USER%% Insufficient or invalid parameters! Check the bot documentation.",
+        "on": "On",
+        "off": "Off"
+    },
+    "ping" : {
+        "ping": "[Ping] @%%USER%% pong!",
+        "pong": "[Ping] @%%USER%% ping!",
+        "bot": "[Ping] @%%USER%% what do you wish?"
+    },
+    "dc" : {
+        "notDisc": "[DC] @%%USER%% I did not see this user logging out!",
+        "tooLong": "[DC] @%%USER%% You logged out a long time ago (%%TIME%%) in position %%POSITION%%!",
+        "tooLongBooth": "[DC] @%%USER%% You logged out a long time ago (%%TIME%%) In the DJ booth!",
+        "tooTimeElap": "[DC] @%%USER%% You've disconnected there. %%TIME%% In the DJ booth, but his video was played by over %%PERC%%% Of the total duration!",
+        "disc": "[DC] @%%USER%% You've disconnected there. %%TIME%% in position %%POSITION%%",
+        "discBooth": "[DC] @%%USER%% You've disconnected there. %%TIME%% In the DJ booth after running %%PERC%% Of your video",
+        "alrAct": "[DCconfig] @%%USER%% DC query is already enabled",
+        "actived": "[DCconfig] @%%USER%% Activated DC account",
+        "alrDis": "[DCconfig] @%%USER%% The DC query is already disabled",
+        "disabled": "[DCconfig] @%%USER%% DC account disabled",
+        "invalidTime": "[DCconfig] @%%USER%% Invalid time (10 ~ 720)!",
+        "newTime": "[DCconfig] @%%USER%% New timeout set: %%TIME%% Minutes",
+        "disTimeElap": "[DCconfig] @%%USER%% Timeout has been disabled!",
+        "invalidPerc": "[DCconfig] @%%USER%% Invalid percentage (0 ~ 100)! ",
+        "DCRule": "[DCconfig] @%%USER%% DC rule set: ",
+        "best": "Best position within time limit",
+        "lastDC": "Last disconnection",
+        "modUnlockedWL": "[DC] @%%USER%% Take your filthy hand off that button over there and let me work in peace"
+    },
+    "eta": {
+        "notInWL": "[ETA] @%%USER%% You're not in the queue!",
+        "alrPlaying": "[ETA] @%%USER%% You're in the DJ booth!",
+        "ETA": "[ETA] @%%USER%% You will play approximately %%TIME%%!",
+        "alrAct": "[ETA] @%%USER%% The ETA query is already activated",
+        "actived": "[ETA] @%%USER%% ETA account enabled",
+        "alrDis": "[ETA] @%%USER%% The ETA query is already disabled",
+        "disabled": "[ETA] @%%USER%% ETA account disabled"
+    },
+    "skip": {
+        "noDJ": "[skip] @%%USER%% There is no DJ to jump!",
+        "skip": "[skip] %%USER%% Jumped the current DJ"
+    },
+    "swap": {
+        "notInWL": "[swap] @%%USER%% Both users need to be queued!",
+        "sameUser": "[swap] @%%USER%% Choose two different users!",
+        "swapping": "[swap] Switching %%USER1%% (position %%POS1%%) with %%USER2%% (position %%POS2%%)"
+    },
+    "links": {
+        "fb": "[facebook] Join us on facebook: %%URL%%",
+        "rules": "[regras] Room rules: %%URL%%",
+        "commands": "[CMD] Commands: %%URL%%",
+        "song": "[link] Current song link: %%URL%%",
+        "notAvaliable": "Link unavailable",
+        "image": "[link] Current music picture: %%URL%%"
+    },
+    "emotelimit": {
+        "value": "[emotelimit] @%%USER%% Limit of emotes per message set: %%LIMIT%%",
+        "invalidVal": "[emotelimit] @%%USER%% Enter a valid quantity (0 ~ 50)!",
+        "emotelimit": "[emotelimit] @%%USER%% Limit of emotes per message set: %%LIMIT%%"
+    },
+    "medialimit": {
+        "limit": "[medialimit] @%%USER%% Set time limit: %%LIMIT%%",
+        "disabled": "[medialimit] @%%USER%% Life limit off",
+        "invalidLimit": "[medialimit] @%%USER%% Lifetime limit must be greater than or equal to zero!",
+        "lockskip": "[medialimit] @%%USER%% The DJ will be skipped and moved to the position %%POS%% From the queue.",
+        "lockskipDis": "[medialimit] @%%USER%% lockskip deactivated.",
+        "siDisabled": "[medialimit] @%%USER%% The video will skip when it reaches the set time limit.",
+        "siEnabled": "[medialimit] @%%USER%% The video will jump immediately if it exceeds the defined limit.",
+        "skip": "[medialimit] @%%USER%% Your video / music exceeds the time limit of %%TIME%% and will be skipped immediately!",
+        "skipAfterLimit": "[medialimit] @%%USER%% Your video / music exceeds the timeout of %%TIME%% and will be skipped after that time!"
+    },
+    "bouncerplus": {
+        "actived": "[bouncer+] @%%USER%% bouncer+ activated!",
+        "disactived": "[bouncer+] @%%USER%% bouncer+ deactivated!"
+    },
+    "autoskip": {
+        "status": "[autoskip] @%%USER%% autoskip: %%ON%%, Time after the video: %%TIME%%",
+        "enabled": "[autoskip] @%%USER%% autoskip activated!",
+        "disabled": "[autoskip] @%%USER%% autoskip deactivated!",
+        "time": "[autoskip] @%%USER%% The DJ will be skipped after %%TIME%% Seconds from end of video!"
+    },
+    "lockskip": {
+        "noDJ": "[lockskip] @%%USER%% There is no DJ to jump!",
+        "skip": "[lockskip] %%USER%% Jumped the current DJ and moved him to the position %%POS%%"
+    },
+    "songstats": {
+        "enabled": "[songstats] @%%USER%% songstats activated!",
+        "disabled": "[songstats] @%%USER%% songstats deactivated!",
+        "stats": "[songstats] %%USER%% rang: %%AUTHOR%% - %%TITLE%% (%%WOOT%% :+1: , %%GRAB%% :blue_heart: , %%MEH%% :-1: )"
+    },
+    "songinfo": {
+        "enabled": "[songinfo] @%%USER%% songinfo activated!",
+        "disabled": "[songinfo] @%%USER%% songinfo deactivated!",
+        "notLoaded": "[songinfo] @%%USER%% No information about the current item.",
+        "statsYT": "[songinfo] %%USER%% Is touching: %%NAME%% ( :eyes: %%VIEWS%% , :+1: %%LIKE%%, :-1: %%DISLIKE%%, Comments: %%COMMENTS%%, duration: %%DUR%%), Uplouded: %%UPLOADED%%)",
+        "statsSC": "[songinfo] %%USER%% it's playing: %%NAME%% (Reproductions: %%PLAY%%, :star:: %%STARS%%, genre: %%GENRE%%, downloads: %%DL%%, uplouded: %%UPLOADED%%, duration: %%DUR%%)",
+		"shorterDuration": "[songinfo] %%USER%% is playing a song that has a duration less than the original (%%PLUGTIME%%, %%SOURCETIME%%). As a consequence, it will not be played in full.",
+        "longerDuration": "[songinfo] %%USER%% is playing a song that has a longer duration than the original (%%PLUGTIME%%, %%SOURCETIME%%), as a result, will be skipped after the actual duration." ,
+        "infoFailed": "[songinfo] failed to get current song information.",
+        "notFound": "[songinfo] @ %%USER%% video / private or unavailable music, you will be skipped and moved to %%POS%% in the queue!",
+        "coutryUnavaliable": "[songinfo] @%%USER%% video can not be played in this country, you will be skipped and moved to %%POS%% in the queue!",
+        "embedDisabled": "[songinfo] @%%USER%% This video can only be viewed on the youtube site, you will be jumped and moved to %%POS%% in the queue!"
+    },
+    "clearchat": {
+        "clearAll": "[clearchat] @%%USER%% Cleaning all the chat, wait...",
+        "clearUser": "[clearchat] @%%USER%% Clearing the chat from %%TARGET%%, please wait..."
+    },
+    "historycheck": {
+        "enabled": "[historycheck] @%%USER%% historycheck activated!",
+        "disabled": "[historycheck] @%%USER%% historycheck deactivated!",
+        "songInHistory": "[historycheck] @%%USER%% Item in history (%%HPOS%%/%%HLEN%%), rang %%HMPLAY%% Times (being %%HMUPLAY%% Times by %%USER%%), última há %%TIME%% por %%LASTUSER%%"
+    },
+    "afkremoval": {
+        "enabled": "[afkremoval] @%%USER%% afkremoval activated",
+        "disabled": "[afkremoval] @%%USER%% afkremoval deactivated!",
+		"warn1": "[afkremoval] @ %% USER %% a lot of time has passed and I did not see you interacting with the room.Please say something in the chat in the next few minutes or I'll remove you from the waiting list.",
+        "warn2": "[afkremoval] @ %% USER %% Last Warning: Please chat something in the next few minutes or I'll remove you from the waiting list.",
+        "warn2": "[afkremoval] @ %% USER %% Removing you from the inactivity waiting list. It's no use crying."
+    },
+    "roullete": {
+		"lotteryWinner": "[roullete] @%%USER%% you won on the automatic rollette and will be moved to first! @djs attentive, the next will be chosen in 1 hour!",
+        "ppWinner": "[pproullete] @%%USER%% you were the lucky guy who won a PP heap of someone! Stay in wait to receive the prize!",
+        "noUsers": "[pproullete] @staff something wrong happened, I could not find lucky for the automatic draw ..."
+    },
+    "staff": {
+        "error": "[STAFF] @%%USER%% Failed to refresh the list.",
+        "ok": "[STAFF] @%%USER%% Updated list, total: %%LEN%%"
+    }
+}

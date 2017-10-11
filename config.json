@@ -1,0 +1,50 @@
+{
+   "dc": {
+      "on": true,
+      "timelimit": 30,
+      "maxelap": 50,
+      "best": true
+   },
+   "eta": {
+      "on": true,
+      "avg": 240
+   },
+   "lockskip": 3,
+   "links": {
+      "rules": "",
+      "commands": ""
+   },
+   "emotelimit": {
+      "limit": 5
+   },
+   "medialimit": {
+      "limit": 420,
+      "skipImmediately": true,
+      "lockskip": 3
+   },
+   "autoskip": {
+      "on": true,
+      "time": 5
+   },
+   "songstats": {
+      "on": true
+   },
+   "songinfo": {
+      "on": false,
+      "lockskip": true
+   },
+   "historycheck": {
+      "on": false,
+      "limit": 200,
+      "timeInterval": 120
+   },
+   "afkremoval": {
+      "on": true,
+      "interval": 60
+   },
+   "boss": [
+   ],
+   "staff": [
+   ],
+   "bouncerplus": true
+}
