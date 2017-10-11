@@ -1,0 +1,4 @@
+{
+  "provider": "https://plug.dj",
+  "socket": "wss://godj.plug.dj/socket"
+}

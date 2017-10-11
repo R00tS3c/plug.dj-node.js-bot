@@ -1,0 +1,50 @@
+{
+    "name" : "plugged",
+    "description" : "plugged is a vast API for plug.dj",
+    "version" : "2.6.1",
+    "main" : "plugged",
+    "author" : "Sooyou",
+    "homepage" : "https://github.com/SooYou/plugged/wiki",
+    "license" : "MIT",
+    "bugs" : {
+        "url" : "https://github.com/SooYou/plugged/issues"
+    },
+
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/SooYou/plugged.git"
+    },
+
+    "files" : [
+        "logger.js",
+        "plugged.js",
+        "query.js",
+        "mapper.js",
+        "utils.js",
+        "package.json",
+        "LICENSE",
+        "README.md",
+        "test/raw.js",
+        "test/test.js",
+        "test/README.md",
+        "conf/config.json"
+    ],
+
+    "keywords" : [
+        "plug",
+        "dj",
+        "plug.dj",
+        "wrapper",
+        "bot",
+        "api"
+    ],
+
+    "scripts": {
+        "test": "mocha test/test.js -t 10000"
+    },
+
+    "dependencies": {
+        "request": "~2",
+        "ws": "~1.1.0"
+    }
+}
