@@ -16,7 +16,6 @@ Usage
 * set in main.js email,password and room
 * in cmd write node main.js
 
-```
 -----------------
 Commands
 ---
