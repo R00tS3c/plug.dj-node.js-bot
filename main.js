@@ -9,7 +9,7 @@ var plugged = new Plugged();
 plugged.log = console.log;
 
 // log into the service
-plugged.login({ email: "mail", password: "password" });
+plugged.login({ email: "plugdj@anime404.com", password: "bilijar2" });
 
 plugged.on(plugged.LOGIN_SUCCESS, function(data) {
 	console.log('Login ok');
