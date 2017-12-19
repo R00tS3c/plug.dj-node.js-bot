@@ -3,6 +3,10 @@ var Plugged = require("./plugged");
 var auxapi = require('./auxapi');
 var utils = require('./utils/utils');
 var settings = require(process.cwd() + '/settings');
+const express = require('express');
+const app = express();
+
+
 
 var plugged = new Plugged();
 
@@ -53,3 +57,5 @@ plugged.on(plugged.VOTE, function(data) {
 	console.log(data ? JSON.stringify(data, null, 3) : 'Nada');
 });*/
 
+app.get('/', (req, res) => res.send('Community Bot'));
+app.listen(process.env.PORT || 3000, () => console.log('Bot Running!'));
