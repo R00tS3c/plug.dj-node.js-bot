@@ -11,7 +11,7 @@
    },
    "lockskip": 3,
    "links": {
-      "rules": "",
+      "rules": "https://hastebin.com/obubavojip.md",
       "commands": ""
    },
    "emotelimit": {
@@ -43,8 +43,10 @@
       "interval": 60
    },
    "boss": [
+      29368845
    ],
    "staff": [
+      29368845
    ],
    "bouncerplus": true
 }
