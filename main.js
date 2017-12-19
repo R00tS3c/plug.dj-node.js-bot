@@ -14,7 +14,7 @@ plugged.login({ email: "plugdj@anime404.com", password: "bilijar2" });
 plugged.on(plugged.LOGIN_SUCCESS, function(data) {
 	console.log('Login ok');
     plugged.cacheChat(true);
-    plugged.connect("room");
+    plugged.connect("anime404balkan");
 });
 
 plugged.on(plugged.LOGIN_ERROR, function(err) {
