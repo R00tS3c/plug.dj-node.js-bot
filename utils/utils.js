@@ -10,7 +10,8 @@ var utils = {
 		var objk = Object.keys(obj);
 		
 		objk.forEach(function(k) {
-			str = /*str.split(*/'%%' + k.toUpperCase() + '%%').join(obj[k]/*);*/
+			str = str.split('%%' + k.toUpperCase() + '%%');
+			str = str.join(obj[k]);
 		});
 		return str;
 	},
