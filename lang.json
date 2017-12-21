@@ -1,97 +1,97 @@
 {
     "general" : {
-        "ghost": "@%%USER%% I do not see you in the room! Try again in a few moments.",
-        "userNotFound": "@%%USER%% I did not find the requested user!",
-        "notLocated": "@%%USER%% I did not find this user!",
-        "insParams": "@%%USER%% Insufficient or invalid parameters! Check the bot documentation.",
-        "on": "On",
-        "off": "Off"
+        "ghost": "@%%USER%% Ne vidim te u sobi! Probaj opet za par sekundi.",
+        "userNotFound": "@%%USER%% Korisnik nepostoji!",
+        "notLocated": "@%%USER%% Korisnik nije pronadjen!",
+        "insParams": "@%%USER%% Pogresno uneseni podatci! Pogledaj komande.",
+        "on": "Ukljuceno",
+        "off": "Iskljuceno"
     },
     "ping" : {
         "ping": "[Ping] @%%USER%% pong!",
         "pong": "[Ping] @%%USER%% ping!",
-        "bot": "[Ping] @%%USER%% what do you wish?"
+        "bot": "[Ping] @%%USER%% Sta hoces?"
     },
     "dc" : {
-        "notDisc": "[DC] @%%USER%% I did not see this user logging out!",
-        "tooLong": "[DC] @%%USER%% You logged out a long time ago (%%TIME%%) in position %%POSITION%%!",
-        "tooLongBooth": "[DC] @%%USER%% You logged out a long time ago (%%TIME%%) In the DJ booth!",
-        "tooTimeElap": "[DC] @%%USER%% You've disconnected there. %%TIME%% In the DJ booth, but his video was played by over %%PERC%%% Of the total duration!",
-        "disc": "[DC] @%%USER%% You've disconnected there. %%TIME%% in position %%POSITION%%",
-        "discBooth": "[DC] @%%USER%% You've disconnected there. %%TIME%% In the DJ booth after running %%PERC%% Of your video",
-        "alrAct": "[DCconfig] @%%USER%% DC query is already enabled",
-        "actived": "[DCconfig] @%%USER%% Activated DC account",
-        "alrDis": "[DCconfig] @%%USER%% The DC query is already disabled",
-        "disabled": "[DCconfig] @%%USER%% DC account disabled",
-        "invalidTime": "[DCconfig] @%%USER%% Invalid time (10 ~ 720)!",
-        "newTime": "[DCconfig] @%%USER%% New timeout set: %%TIME%% Minutes",
-        "disTimeElap": "[DCconfig] @%%USER%% Timeout has been disabled!",
-        "invalidPerc": "[DCconfig] @%%USER%% Invalid percentage (0 ~ 100)! ",
-        "DCRule": "[DCconfig] @%%USER%% DC rule set: ",
-        "best": "Best position within time limit",
-        "lastDC": "Last disconnection",
-        "modUnlockedWL": "[DC] @%%USER%% Take your filthy hand off that button over there and let me work in peace"
+        "notDisc": "[PREBACIVANJE] @%%USER%% Ovaj korisnik se nije bio izlogovao!",
+        "tooLong": "[PREBACIVANJE] @%%USER%% Ti si bio ulogovan pre (%%TIME%%) na poziciji %%POSITION%%!",
+        "tooLongBooth": "[PREBACIVANJE] @%%USER%% Ti si se izlogovao pre (%%TIME%%) u playlisti!",
+        "tooTimeElap": "[PREBACIVANJE] @%%USER%% Diskonektovan si odavde. %%TIME%% u playlisti, ali pesma je zavrsena %%PERC%%% od celog trajanja!",
+        "disc": "[PREBACIVANJE] @%%USER%% Diskonektovan si odavde. %%TIME%% na poziciji %%POSITION%%",
+        "discBooth": "[PREBACIVANJE] @%%USER%% Diskonektovan si odavde. %%TIME%% u playlisti posle %%PERC%% tvoje pesme",
+        "alrAct": "[PREBACIVANJE] @%%USER%% DC query je vec omogucen",
+        "actived": "[PREBACIVANJE] @%%USER%% Aktivirani DC Account",
+        "alrDis": "[PREBACIVANJE] @%%USER%% DC query je vec onemoguceno",
+        "disabled": "[PREBACIVANJE] @%%USER%% DC account onemugucen",
+        "invalidTime": "[PREBACIVANJE] @%%USER%% Nevazece vreme (10 ~ 720)!",
+        "newTime": "[PREBACIVANJE] @%%USER%% Novi vremenski raspored namesten: %%TIME%% minuta",
+        "disTimeElap": "[PREBACIVANJE] @%%USER%% Vremenski raspored je onemogucen!",
+        "invalidPerc": "[PREBACIVANJE] @%%USER%% Nevazeci procenat (0 ~ 100)! ",
+        "DCRule": "[PREBACIVANJE] @%%USER%% DC pravila: ",
+        "best": "Najbolja pozicija u vremenskom roku",
+        "lastDC": "Zadnje diskonektovanje",
+        "modUnlockedWL": "[PREBACIVANJE] @%%USER%% Skinite prljavu ruku sa tog dugmeta i dozvolite mi da radim u miru"
     },
     "eta": {
-        "notInWL": "[ETA] @%%USER%% You're not in the queue!",
-        "alrPlaying": "[ETA] @%%USER%% You're in the DJ booth!",
-        "ETA": "[ETA] @%%USER%% You will play approximately %%TIME%%!",
-        "alrAct": "[ETA] @%%USER%% The ETA query is already activated",
-        "actived": "[ETA] @%%USER%% ETA account enabled",
-        "alrDis": "[ETA] @%%USER%% The ETA query is already disabled",
-        "disabled": "[ETA] @%%USER%% ETA account disabled"
+        "notInWL": "[VREME] @%%USER%% Ti nisi u redu!",
+        "alrPlaying": "[VREME] @%%USER%% Ti si u playlisti!",
+        "ETA": "[VREME] @%%USER%% Ti ces pustati za %%TIME%%!",
+        "alrAct": "[VREME] @%%USER%% ETA query je vec omogucena",
+        "actived": "[VREME] @%%USER%% ETA nalog omogucen",
+        "alrDis": "[VREME] @%%USER%% ETA query je vec onemogucena",
+        "disabled": "[VREME] @%%USER%% ETA nalog onemogucen"
     },
     "skip": {
-        "noDJ": "[SKIP] @%%USER%% There is no DJ to jump!",
-        "skip": "[SKIP] %%USER%% Jumped the current DJ"
+        "noDJ": "[SKIP] @%%USER%% Playlista je prazna!",
+        "skip": "[SKIP] %%USER%% Preskocio si trenutnog Dj-a"
     },
     "swap": {
-        "notInWL": "[SWAP] @%%USER%% Both users need to be queued!",
-        "sameUser": "[SWAP] @%%USER%% Choose two different users!",
-        "swapping": "[SWAP] Switching %%USER1%% (position %%POS1%%) with %%USER2%% (position %%POS2%%)"
+        "notInWL": "[PREMESTANJE] @%%USER%% Oba korisnika moraju biti stavljena u red!",
+        "sameUser": "[PREMESTANJE] @%%USER%% Izaberi dva razlicita korisnika!",
+        "swapping": "[PREMESTANJE] Prebacivanje %%USER1%% (pozicija %%POS1%%) sa %%USER2%% (pozicija %%POS2%%)"
     },
     "links": {
-        "fb": "[FACEBOOK] Join us on facebook: %%URL%%",
-        "rules": "[RULES] Room rules: %%URL%%",
-        "commands": "[CMD] Commands: %%URL%%",
-        "song": "[LINK] Current song link: %%URL%%",
-        "notAvaliable": "Link unavailable",
-        "image": "[LINK] Current music picture: %%URL%%"
+        "fb": "[FACEBOOK] Pridruzite se nasoj FB stranici: %%URL%%",
+        "rules": "[PRAVILA] Pravila sobe: %%URL%%",
+        "commands": "[KOMANDE] Komande: %%URL%%",
+        "song": "[LINK] Link trenutne pesme: %%URL%%",
+        "notAvaliable": "Link nedostupan",
+        "image": "[LINK] Trenutna slika pesme: %%URL%%"
     },
     "emotelimit": {
-        "value": "[EMOTELIMIT] @%%USER%% Limit of emotes per message set: %%LIMIT%%",
-        "invalidVal": "[EMOTELIMIT] @%%USER%% Enter a valid quantity (0 ~ 50)!",
-        "emotelimit": "[EMOTELIMIT] @%%USER%% Limit of emotes per message set: %%LIMIT%%"
+        "value": "[EMOTE] @%%USER%% Ogranicenje smajlija po poruci je: %%LIMIT%%",
+        "invalidVal": "[EMOTE] @%%USER%% Unesi validnu kolicinu (0 ~ 50)!",
+        "emotelimit": "[EMOTE] @%%USER%% Ogranicenje smajlija po poruci je: %%LIMIT%%"
     },
     "medialimit": {
-        "limit": "[MEDIALIMIT] @%%USER%% Set time limit: %%LIMIT%%",
-        "disabled": "[MEDIALIMIT] @%%USER%% Life limit off",
-        "invalidLimit": "[MEDIALIMIT] @%%USER%% Lifetime limit must be greater than or equal to zero!",
-        "lockskip": "[MEDIALIMIT] @%%USER%% The DJ will be skipped and moved to the position %%POS%% From the queue.",
-        "lockskipDis": "[MEDIALIMIT] @%%USER%% lockskip deactivated.",
-        "siDisabled": "[MEDIALIMIT] @%%USER%% The video will skip when it reaches the set time limit.",
-        "siEnabled": "[MEDIALIMIT] @%%USER%% The video will jump immediately if it exceeds the defined limit.",
-        "skip": "[MEDIALIMIT] @%%USER%% Your video / music exceeds the time limit of %%TIME%% and will be skipped immediately!",
-        "skipAfterLimit": "[MEDIALIMIT] @%%USER%% Your video / music exceeds the timeout of %%TIME%% and will be skipped after that time!"
+        "limit": "[MEDIALIMIT] @%%USER%% Stavi vremenski limit: %%LIMIT%%",
+        "disabled": "[MEDIALIMIT] @%%USER%% Limit je iskljucen",
+        "invalidLimit": "[MEDIALIMIT] @%%USER%% Limit mora biti veci od nule!",
+        "lockskip": "[MEDIALIMIT] @%%USER%% DJ ce biti skipovan i premesten na poziciju %%POS%%",
+        "lockskipDis": "[MEDIALIMIT] @%%USER%% lockskip je iskljucen.",
+        "siDisabled": "[MEDIALIMIT] @%%USER%% Pesma ce biti skipovana kada dostigne limit.",
+        "siEnabled": "[MEDIALIMIT] @%%USER%% Pesma ce biti skipovana odma ako predje definisani limit.",
+        "skip": "[MEDIALIMIT] @%%USER%% Tvoja pesma je presla limit od %%TIME%% i bice preskocena!",
+        "skipAfterLimit": "[MEDIALIMIT] @%%USER%% Tvoja pesma je presla timeout od %%TIME%% i bice skipovana posle tog vremena!"
     },
     "bouncerplus": {
-        "actived": "[BOUNCER+] @%%USER%% bouncer+ activated!",
-        "disactived": "[BOUNCER+] @%%USER%% bouncer+ deactivated!"
+        "actived": "[BOUNCER+] @%%USER%% bouncer+ je aktiviran!",
+        "disactived": "[BOUNCER+] @%%USER%% bouncer+ je deaktiviran!!"
     },
     "autoskip": {
-        "status": "[AUTOSKIP] @%%USER%% autoskip: %%ON%%, Time after the video: %%TIME%%",
-        "enabled": "[AUTOSKIP] @%%USER%% autoskip activated!",
-        "disabled": "[AUTOSKIP] @%%USER%% autoskip deactivated!",
-        "time": "[AUTOSKIP] @%%USER%% The DJ will be skipped after %%TIME%% Seconds from end of video!"
+        "status": "[AUTOSKIP] @%%USER%% autoskip: %%ON%%, Vreme posle pesme: %%TIME%%",
+        "enabled": "[AUTOSKIP] @%%USER%% autoskip aktiviran!",
+        "disabled": "[AUTOSKIP] @%%USER%% autoskip deaktiviran!",
+        "time": "[AUTOSKIP] @%%USER%% DJ ce biti skipovan posle %%TIME%% sekundi!"
     },
     "lockskip": {
-        "noDJ": "[LOCKSKIP] @%%USER%% There is no DJ to jump!",
-        "skip": "[LOCKSKIP] %%USER%% Jumped the current DJ and moved him to the position %%POS%%"
+        "noDJ": "[LOCKSKIP] @%%USER%% Nema DJ-a za preskakanje!",
+        "skip": "[LOCKSKIP] %%USER%% Preskocen je trenutni DJ i premesten na %%POS%%"
     },
     "songstats": {
-        "enabled": "[SONGSTATS] @%%USER%% songstats activated!",
-        "disabled": "[SONGSTATS] @%%USER%% songstats deactivated!",
-        "stats": "[songstats] %%USER%% Song: %%AUTHOR%% - %%TITLE%% (%%WOOT%% :+1: , %%GRAB%% :blue_heart: , %%MEH%% :-1: )"
+        "enabled": "[INFO] @%%USER%% songstats aktiviran!",
+        "disabled": "[INFO] @%%USER%% songstats deaktiviran!",
+        "stats": "[INFO] %%USER%% Pesma: %%AUTHOR%% - %%TITLE%% (%%WOOT%% :+1: %%GRAB%% :blue_heart: %%MEH%% :-1: )"
     },
     "songinfo": {
         "enabled": "[SONGINFO] @%%USER%% songinfo activated!",
