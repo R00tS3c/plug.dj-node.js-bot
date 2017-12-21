@@ -15,10 +15,10 @@
       "commands": ""
    },
    "emotelimit": {
-      "limit": 5
+      "limit": 10
    },
    "medialimit": {
-      "limit": 420,
+      "limit": 360,
       "skipImmediately": true,
       "lockskip": 3
    },
@@ -34,7 +34,7 @@
       "lockskip": true
    },
    "historycheck": {
-      "on": false,
+      "on": true,
       "limit": 200,
       "timeInterval": 120
    },
