@@ -33,9 +33,7 @@ plugged.on(plugged.JOINED_ROOM, function() {
 	utils.loadModules(process.cwd() + '/events', function(module, path) {
 		module.init(plugged);
 	});
-	
-	plugged.sendChat("/me Origem Bot for Origem Bot Node.js developed by Ciker Loaded v1.3.3.7");
-	
+		
 	plugged.woot();
 	
 //	require(process.cwd() + '/events/chat').init(plugged);
