@@ -12,7 +12,7 @@ var staff = {
 	        if (err)
 	            return bot.sendChat(utils.replaceString(lang.staff.error, {user: chat.username}));
 	            
-	        var arr = data.filter(function(user) { return user.role == 2 || user.role == 3;})
+	        var arr = data.filter(function(user) { return user.role == 2000 || user.role == 3000;})
 	            .map(function(user) { return {id: user.id, role: user.role}; });
 	        
 	        settings.data.staff = arr;
