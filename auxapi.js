@@ -137,8 +137,8 @@ var room = {
 			if (role == 'bouncer+') {
 				role = 'manager';
 				
-				if (settings.data.bouncerplus && userRole == 2)
-					userRole = 3;
+				if (settings.data.bouncerplus && userRole == 2000)
+					userRole = 3000;
 			}
 			
 			var aux = roles[userRole];
@@ -147,7 +147,7 @@ var room = {
 				if (user.gRole && userRole < roles.indexOf('manager'))
 					aux = 'manager';
 				
-				if (user.gRole == 5)
+				if (user.gRole == 5000)
 					aux = 'host';
 			}
 			return roles.indexOf(aux) >= roles.indexOf(role);
