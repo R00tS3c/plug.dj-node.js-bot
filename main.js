@@ -25,7 +25,7 @@ plugged.login({
 plugged.on(plugged.LOGIN_SUCCESS, function(data) {
 	console.log('Login ok');
     plugged.cacheChat(true);
-    plugged.connect("anime404balkan");
+    plugged.connect("best-party-19");
 });
 
 plugged.on(plugged.LOGIN_ERROR, function(err) {
