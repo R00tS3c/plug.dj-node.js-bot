@@ -27,7 +27,7 @@
       "time": 5
    },
    "songstats": {
-      "on": false
+      "on": true
    },
    "songinfo": {
       "on": false,
