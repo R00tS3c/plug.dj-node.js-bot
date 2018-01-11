@@ -13,12 +13,12 @@ var plugged = new Plugged();
 plugged.log = console.log;
 
 // log into the service
-plugged.login({ email: "plugdj@anime404.com", password: "bilijar2" });
+plugged.login({ email: "botisusovci@gmail.com", password: "isusovci" });
 
 plugged.on(plugged.LOGIN_SUCCESS, function(data) {
 	console.log('Login ok');
     plugged.cacheChat(true);
-    plugged.connect("anime404balkan");
+    plugged.connect("anchy");
 });
 
 plugged.on(plugged.LOGIN_ERROR, function(err) {
