@@ -13,7 +13,7 @@ var plugged = new Plugged();
 plugged.log = console.log;
 
 // log into the service
-plugged.login({ email: "balkanparty291@gmail.com", password: "wizzard1997" });
+plugged.login({ email: "", password: "" });
 //fb login
 /*
 plugged.login({
@@ -25,7 +25,7 @@ plugged.login({
 plugged.on(plugged.LOGIN_SUCCESS, function(data) {
 	console.log('Login ok');
     plugged.cacheChat(true);
-    plugged.connect("best-party-19");
+    plugged.connect("");
 });
 
 plugged.on(plugged.LOGIN_ERROR, function(err) {
