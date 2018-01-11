@@ -14,6 +14,13 @@ plugged.log = console.log;
 
 // log into the service
 plugged.login({ email: "", password: "" });
+//fb login
+/*
+plugged.login({
+    userID: "your ID here",
+    accessToken: "your access token here"
+} callback);
+*/
 
 plugged.on(plugged.LOGIN_SUCCESS, function(data) {
 	console.log('Login ok');
