@@ -5,7 +5,7 @@ var utils = require(process.cwd() + '/utils/utils');
 var songinfo = require(process.cwd() + '/commands/info/songinfo');
 
 var links = {
-    commands: ['fb', 'facebook', 'rules', 'regras', 'commands', 'comandos', 'image', 'imagem', 'song'],
+    commands: ['fb', 'facebook', 'rules', 'commands', 'image', 'imagem', 'song'],
 	cooldown: 1,
 	lastUsed: 0,
 	deleteMessage: true,
