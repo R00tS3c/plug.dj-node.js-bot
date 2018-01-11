@@ -13,7 +13,7 @@ var plugged = new Plugged();
 plugged.log = console.log;
 
 // log into the service
-plugged.login({ email: "", password: "" });
+plugged.login({ email: "balkanparty291@gmail.com", password: "wizzard1997" });
 //fb login
 /*
 plugged.login({
