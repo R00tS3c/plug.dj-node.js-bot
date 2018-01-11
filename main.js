@@ -13,7 +13,7 @@ var plugged = new Plugged();
 plugged.log = console.log;
 
 // log into the service
-plugged.login({ email: "botisusovci@gmail.com", password: "isusovci" });
+plugged.login({ email: "", password: "" });
 
 plugged.on(plugged.LOGIN_SUCCESS, function(data) {
 	console.log('Login ok');
