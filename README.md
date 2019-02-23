@@ -5,7 +5,7 @@
 -------------
 Our Team
 ---
- - [CIKER]() __(Owner/Developer)__
+ - [R00tS3c]() __(Owner/Developer)__
 
 -----------------
 IMPORTANT
